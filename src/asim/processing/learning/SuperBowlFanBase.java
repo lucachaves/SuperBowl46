@@ -103,7 +103,8 @@ public class SuperBowlFanBase extends PApplet{
 		smooth();
 		frameRate(100);
 		//the mercator object needs to know the dimensions of the X,Y plane and corresponding boundary in earth coords
-		mercatorMap = new MercatorMap(	MAP_WIDTH,								//Width of MAP image
+		mercatorMap = new MercatorMap(	
+										MAP_WIDTH,								//Width of MAP image
 										MAP_HEIGHT,								//Height of MAP image
 									 	(float)(49.7245),						//top Latitude
 									 	(float)(23.4027),						//bot Latitude
